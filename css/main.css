@@ -1,0 +1,230 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 32px;
+    background: #EFEFEF;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 144px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-link {
+    font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+color: #222222;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 242px;
+}
+
+.nav-list__item+.nav-list__item {
+    margin-left: 40px;
+}
+
+.nav-list__item>a {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+color: #222222;
+}
+
+.nav-list__item>a:hover {
+    color: #086cf9;
+}
+
+.signin {
+    font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+color: #222222;
+margin-left: 112px;
+}
+
+.signup {
+    padding: 12px 24px;
+    margin-left: 48px;
+    background: #086CF9;
+border-radius: 4px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.self-container {
+    width: 1440px;
+    height: 739px;
+    margin: 0 auto;
+    background-image: url('../img/colleague.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.opacity {
+    width: 1440px;
+    height: 739px;
+    margin-right: 144px;
+    background: rgba(0, 0, 0, 0.54);
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.self__head {
+    margin-top: 199px;
+    font-weight: 700;
+font-size: 56px;
+line-height: 73px;
+color: #FFFFFF;
+}
+
+.self__text {
+    width: 867px;
+    margin-top: 24px;
+font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+text-align: center;
+color: #FFFFFF;
+}
+
+.self-btn {
+    padding: 16px 30px;
+    margin-top: 54px;
+background: #086CF9;
+border-radius: 4px;
+border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF; 
+    cursor: pointer;
+}
+
+
+.self__info {
+    width: 1138px;
+    margin-top: 186px;
+    display: flex;
+align-items: center;
+padding: 56px 88px;
+gap: 155px;
+position: relative;
+background: #FFFFFF;
+box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+}
+
+.info__list {
+  display: flex;
+  align-items: center;
+  gap: 24px; 
+}
+
+ .info__item>strong { 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #222222;
+} 
+
+.info__item>p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+color: #086CF9;
+} 
+
+.find-course {
+    padding-top: 223px;
+    background: #EFEFEF;
+}
+
+.find-course-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-course__title {
+    width: 519px;
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+color: #222222;
+}
+
+.find-course__text {
+    width: 478px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+color: #555555;
+}
+
+.find-course__text--bold {
+    width: 489px;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #333333;
+}
+
+.find-course__btn {
+    padding: 16px 32px;
+    margin-top: 32px;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+background: #086CF9;
+border-radius: 4px;
+cursor: pointer;
+border: none;
+}
+
+.meeting-interwiev {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+
+.elipse {
+    position: absolute;
+}
+
+.triangle {
+    position: absolute;
+}

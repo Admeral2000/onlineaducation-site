@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -20,10 +21,38 @@
             <a class="header__logo-link" href="#">Education</a>
             
             <ul class="nav-list">
-               <li class="nav-list__item"><a href="#">Home<img src="./img/down-black.svg" alt="down" width="20" height="20"></a></li>
-               <li class="nav-list__item"><a href="#">Courses<img src="./img/down-black.svg" alt="down" width="20" height="20"></a></li>
-               <li class="nav-list__item"><a href="#">Page<img src="./img/down-black.svg" alt="down" width="20" height="20"></a></li>
-               <li class="nav-list__item"><a href="#">Blog<img src="./img/down-black.svg" alt="down" width="20" height="20"></a></li>
+               <li class="nav-list__item">Home <i class="fa-solid fa-angle-down"></i>
+            <ul class="drop-in__list">
+                <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+            </ul>
+        </li>
+               <li class="nav-list__item">Courses <i class="fa-solid fa-angle-down"></i>
+                <ul class="drop-in__list">
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                </ul>
+            </li>
+               <li class="nav-list__item">Page <i class="fa-solid fa-angle-down"></i>
+                <ul class="drop-in__list">
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                </ul>
+            </li>
+               <li class="nav-list__item">Blog <i class="fa-solid fa-angle-down"></i>
+                <ul class="drop-in__list">
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                    <li class="drop-in__item"><a class="drop-down__link" href="#section">section</a> </li>
+                </ul>
+            </li>
                 <li class="nav-list__item"><a href="#">Contact</a></li>
             </ul>
             <a class="signin" href="#">Sign In</a>
@@ -86,12 +115,380 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container">
-            
+    <section class="menu">
+        <div class="container menu-container">
+            <h2 class="menu__title">How It Work</h2>
+            <p class="menu__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et hendrerit euismod fusce sit. </p>
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link"><img src="./img/online-learning.png" alt="online-learning" width="80" height="80"><h4>Learn More Online</h4>
+                <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p></a></li>
+                <li class="menu__item"><a href="#" class="menu__link"><img src="./img/notes.png" alt="notes" width="80" height="80"><h4>Writing Notes</h4>
+                    <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p></a></li>
+                    <li class="menu__item"><a href="#" class="menu__link"><img src="./img/interactive-sessions.png" alt="notes" width="80" height="80"><h4>Interactive Sessions</h4>
+                        <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p></a></li>
+                        <li class="menu__item"><a href="#" class="menu__link"><img src="./img/technical-support.png" alt="notes" width="80" height="80"><h4>Life Time Support</h4>
+                            <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit.</p></a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="online-courses">
+        <div class="container menu-container">
+          <h2 class="online-courses__title">Our All The Online Courses</h2>
+          <p class="online-courses__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <ul class="online-courses__list">
+            <li class="online-courses__item">
+                <a class="online-courses__link" href="#">
+                    <img src="./img/development.jpg" alt="development" width="320" height="208">
+                    <div class="human-short-info">
+                        <img src="./img/profil.svg" alt="profil" width="32" height="32">
+                        <p>5.8k</p>
+                        <img src="./img/eye.svg" alt="eye" width="32" height="32">
+                        <p>69k</p>
+                        <img src="./img/star.svg" alt="star" width="32" height="32">
+                        <p>4.5</p>
+                        <img src="./img/development-avatar.svg" alt="star" width="32" height="32">
+                    </div>
+                    <div class="human-cost"><h4>Development</h4><p>$150</p></div>
+                    <p class="online-courses__text online-courses__text--size">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                </a>
+            </li>
+
+            <li class="online-courses__item">
+                <a class="online-courses__link" href="#">
+                    <img src="./img/android-developer.jpg" alt="development" width="320" height="208">
+                    <div class="human-short-info">
+                        <img src="./img/profil.svg" alt="profil" width="32" height="32">
+                        <p>5.8k</p>
+                        <img src="./img/eye.svg" alt="eye" width="32" height="32">
+                        <p>69k</p>
+                        <img src="./img/star.svg" alt="star" width="32" height="32">
+                        <p>4.5</p>
+                        <img src="./img/android-developer-avatar.svg" alt="star" width="32" height="32">
+                    </div>
+                    <div class="human-cost"><h4>Android Developer</h4><p>$130</p></div>
+                    <p class="online-courses__text online-courses__text--size">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                </a>
+            </li>
+
+            <li class="online-courses__item">
+                <a class="online-courses__link" href="#">
+                    <img src="./img/java-course.jpg" alt="development" width="320" height="208">
+                    <div class="human-short-info">
+                        <img src="./img/profil.svg" alt="profil" width="32" height="32">
+                        <p>5.8k</p>
+                        <img src="./img/eye.svg" alt="eye" width="32" height="32">
+                        <p>69k</p>
+                        <img src="./img/star.svg" alt="star" width="32" height="32">
+                        <p>4.5</p>
+                        <img src="./img/java-course-avatar.svg" alt="star" width="32" height="32">
+                    </div>
+                    <div class="human-cost"><h4>Java Script Course</h4><p>$140</p></div>
+                    <p class="online-courses__text online-courses__text--size">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                </a>
+            </li>
+
+            <li class="online-courses__item">
+                <a class="online-courses__link" href="#">
+                    <img src="./img/andr-develop-scnd.jpg" alt="development" width="320" height="208">
+                    <div class="human-short-info">
+                        <img src="./img/profil.svg" alt="profil" width="32" height="32">
+                        <p>5.8k</p>
+                        <img src="./img/eye.svg" alt="eye" width="32" height="32">
+                        <p>69k</p>
+                        <img src="./img/star.svg" alt="star" width="32" height="32">
+                        <p>4.5</p>
+                        <img src="./img/andr-develop-scnd-avatar.svg" alt="star" width="32" height="32">
+                    </div>
+                    <div class="human-cost"><h4>Android Developer</h4><p>$120</p></div>
+                    <p class="online-courses__text online-courses__text--size">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                </a>
+            </li>
+
+            <li class="online-courses__item">
+                <a class="online-courses__link" href="#">
+                    <img src="./img/java-scrpt-scnd.jpg" alt="development" width="320" height="208">
+                    <div class="human-short-info">
+                        <img src="./img/profil.svg" alt="profil" width="32" height="32">
+                        <p>5.8k</p>
+                        <img src="./img/eye.svg" alt="eye" width="32" height="32">
+                        <p>69k</p>
+                        <img src="./img/star.svg" alt="star" width="32" height="32">
+                        <p>4.5</p>
+                        <img src="./img/java-scrpt-scnd-avatar.svg" alt="star" width="32" height="32">
+                    </div>
+                    <div class="human-cost"><h4>Java Script Course</h4><p>$120</p></div>
+                    <p class="online-courses__text online-courses__text--size">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                </a>
+            </li>
+
+            <li class="online-courses__item">
+                <a class="online-courses__link" href="#">
+                    <img src="./img/basic-market.jpg" alt="development" width="320" height="208">
+                    <div class="human-short-info">
+                        <img src="./img/profil.svg" alt="profil" width="32" height="32">
+                        <p>5.8k</p>
+                        <img src="./img/eye.svg" alt="eye" width="32" height="32">
+                        <p>69k</p>
+                        <img src="./img/star.svg" alt="star" width="32" height="32">
+                        <p>4.5</p>
+                        <img src="./img/basic-market-avatar.svg" alt="star" width="32" height="32">
+                    </div>
+                    <div class="human-cost"><h4>Basic Marketing</h4><p>$100</p></div>
+                    <p class="online-courses__text online-courses__text--size">Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.</p>
+                </a>
+            </li>
+          </ul>
+          <button class="online-courses__btn">View All Course</button>
+        </div>
+    </section>
+    <section class="mentor-event">
+        <div class="container menu-container">
+            <h2 class="online-courses__title">Meet with Our Mentor</h2>
+            <p class="online-courses__text mentor-event__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida massa.</p>
+            <ul class="online-courses__list">
+                <li class="mentor-event__item">
+                    <a class="mentor-event__link" href="#">
+                        <img src="./img/moham.jpg" alt="mohammad" width="368" height="340">
+                    <h4>Mohammod Ali</h4>
+                    <p>CEO, Developer</p>
+                    <div class="mentor-info">
+                        <img src="./img/user.svg" alt="user" width="16" height="16">
+                        <p>8.2k</p>
+                        <img class="star-icon-img" src="./img/Star-icon.svg" alt="Star-icon" width="16" height="16">
+                        <p>4.5</p>
+                        <p class="course-num">25+ Courses</p>
+                    </div>
+                </a>                    
+                </li>
+
+                <li class="mentor-event__item">
+                    <a class="mentor-event__link" href="#">
+                        <img src="./img/braniya.jpg" alt="mohammad" width="368" height="340">
+                    <h4>Braniya Lara</h4>
+                    <p>Content Writter</p>
+                    <div class="mentor-info">
+                        <img src="./img/user.svg" alt="user" width="16" height="16">
+                        <p>8.2k</p>
+                        <img class="star-icon-img" src="./img/Star-icon.svg" alt="Star-icon" width="16" height="16">
+                        <p>4.5</p>
+                        <p class="course-num">25+ Courses</p>
+                    </div>
+                </a>                      
+                </li>
+
+                <li class="mentor-event__item">
+                    <a class="mentor-event__link" href="#">
+                        <img src="./img/moham-scnd.jpg" alt="mohammad" width="368" height="340">
+                    <h4>Mohammod Ali</h4>
+                    <p>Content Writter</p>
+                    <div class="mentor-info">
+                        <img src="./img/user.svg" alt="user" width="16" height="16">
+                        <p>8.2k</p>
+                        <img class="star-icon-img" src="./img/Star-icon.svg" alt="Star-icon" width="16" height="16">
+                        <p>4.5</p>
+                        <p class="course-num">25+ Courses</p>
+                    </div>
+                </a>                      
+                </li>
+            </ul>
+
+            <h2 class="online-courses__title  upcomming__title--margin">Upcoming Event</h2>
+            <p class="online-courses__text mentor-event__text upcomming__text--width">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum.</p>
+            <ul class="online-courses__list">
+                <li class="upcomming__item">
+                    <img class="ten-apr" src="./img/ten-apr.svg" alt="" width="65" height="62">
+                    <a class="mentor-event__link" href="#">
+                        <img src="./img/colleague.jpg" alt="colleague" width="368" height="240">
+                        <h5 class="upcomming__title--h5">TED Talks at UCF College of Education</h5>
+                        <div class="upcomming__info">
+                            <img src="./img/clock.svg" alt="clock" width="16" height="16">
+                            <p>4.00 pm - 8.00 pm</p>
+                            <img class="placeholdet-icon" src="./img/placeholder.svg" alt="placeholder" width="16" height="16">
+                            <p>Dhaka Bangladesh</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="upcomming__item">
+                    <img class="ten-apr" src="./img/ten-apr.svg" alt="" width="65" height="62">
+                    <a class="mentor-event__link" href="#">
+                        <img src="./img/summer-course.jpg" alt="colleague" width="368" height="240">
+                        <h5 class="upcomming__title--h5">Summer Course Starts From June</h5>
+                        <div class="upcomming__info">
+                            <img src="./img/clock.svg" alt="clock" width="16" height="16">
+                            <p>4.00 pm - 8.00 pm</p>
+                            <img class="placeholdet-icon" src="./img/placeholder.svg" alt="placeholder" width="16" height="16">
+                            <p>Dhaka Bangladesh</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="upcomming__item">
+                    <img class="ten-apr" src="./img/ten-apr.svg" alt="" width="65" height="62">
+                    <a class="mentor-event__link" href="#">
+                        <img src="./img/importance.jpg" alt="colleague" width="368" height="240">
+                        <h5 class="upcomming__title--h5">Importance of Research Seminar</h5>
+                        <div class="upcomming__info">
+                            <img src="./img/clock.svg" alt="clock" width="16" height="16">
+                            <p>4.00 pm - 8.00 pm</p>
+                            <img class="placeholdet-icon" src="./img/placeholder.svg" alt="placeholder" width="16" height="16">
+                            <p>Dhaka Bangladesh</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="number-info">
+        <div class="number-info-container">
+         <ul class="number-info__list">
+            <li class="number-info-item">
+                <p>85+</p>
+                <p>Teachers</p>
+            </li>
+            <li class="number-info-item">
+                <p>850+</p>
+                <p>Students</p>
+            </li>
+            <li class="number-info-item">
+                <p>55+</p>
+                <p>Courses</p>
+            </li>
+            <li class="number-info-item">
+                <p>25+</p>
+                <p>Country</p>
+            </li>
+         </ul>
+        </div>
+    </section>
+    <section class="latest">
+        <div class="container menu-container">
+            <h2 class="online-courses__title">Our Latest Blog</h2>
+            <p class="latest__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam at entum.</p>
+            <ul class="online-courses__list latest__list">
+                <li class="latest__item">
+                    <a class="latest__link" href="#">
+                        <img src="./img/product.jpg" alt="product marketing" width="368" height="248">
+                        <h4>Product Marketing Creative Camping Brand Image</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet, vestibulum euismod nullam at entum. Urna, posuere nisi sit gravida massa.</p>
+                        <a class="read-more" href="#">Read More...</a>
+                    </a>
+                </li>
+                <li class="latest__item">
+                    <a class="latest__link" href="#">
+                        <img src="./img/marketing.jpg" alt="product marketing" width="368" height="248">
+                        <h4>Product Marketing Creative Camping Brand Image</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet, vestibulum euismod nullam at entum. Urna, posuere nisi sit gravida massa.</p>
+                        <a class="read-more" href="#">Read More...</a>
+                    </a>
+                </li>
+                <li class="latest__item">
+                    <a class="latest__link" href="#">
+                        <img src="./img/creative.jpg" alt="product marketing" width="368" height="248">
+                        <h4>Product Marketing Creative Camping Brand Image</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet, vestibulum euismod nullam at entum. Urna, posuere nisi sit gravida massa.</p>
+                        <a class="read-more" href="#">Read More...</a>
+                    </a>
+                </li>
+            </ul>
+            <button class="online-courses__btn latest__btn--margin">View All</button>
+
+            <h2 class="online-courses__title  upcomming__title--margin">What Our Students Say</h2>
+            <p class="latest__text latest__text--width">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet.</p>
+            <ul class="students__list">
+                <li class="students__item--btn--left"><button class="left-vector"><img src="./img/left-vector.svg" alt="left" width="40" height="40"></button></li>
+                <li class="students__item">
+                    <p class="students__text">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Placerat mauris non dictumst in leo etiam. Proin iaculis arcu iaculis egestas.</p>
+                    <div class="students__blank">
+                    <img src="./img/jony-ahmed.svg" alt="jony-ahmed" width="72" height="72">
+                    <span>
+                    <h5>Jony Ahmed</h5>
+                    <p>UI/UX Student</p>
+                    </span>
+                    </div>
+                </li>
+                <li class="students__item">
+                    <p class="students__text">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Placerat mauris non dictumst in leo etiam. Proin iaculis arcu iaculis egestas.</p>
+                    <div class="students__blank">
+                    <img src="./img/mukter.svg" alt="mukter" width="72" height="72">
+                    <span>
+                    <h5>Mukter Hossain</h5>
+                    <p>UI/UX Student</p>
+                    </span>
+                    </div>
+                </li>
+                <li class="students__item">
+                    <p class="students__text">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Placerat mauris non dictumst in leo etiam. Proin iaculis arcu iaculis egestas.</p>
+                    <div class="students__blank">
+                    <img src="./img/jony-sing.svg" alt="mukter" width="72" height="72">
+                    <span>
+                    <h5>Jony Sing</h5>
+                    <p>UI/UX Student</p>
+                    </span>
+                    </div>
+                </li>
+                <li class="students__item--btn--right"><button class="left-vector"><img src="./img/right-vector.svg" alt="right" width="40" height="40"></button></li>
+            </ul>
+
+            <div class="students-say">
+                <h2 class="students-say__title">What Our Students Say</h2>
+                <p class="students-say__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet.</p>
+                <form class="students-say__form" action="/htmlacademy.ru" method="post">
+                    <label for="email">
+                    <input class="user-email" type="email" name="user_email" id="email "placeholder="Enter your email..."></label>
+                    <button class="email-btn">Subscribe</button>
+                </form>
+            </div>
         </div>
     </section>
     </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+           <div class="education-blank">
+            <h2 class="education-blank__head--logo">Education</h2>
+            <p class="education-blank__text--logo">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Amet, vestibulum euismod nullam the elementum. Urna, posuere nisi sit gravid.</p>
+            <h2 class="education-blank__title--follow">Follow Us</h2>
+
+            <!--<<<<<<< NETWORK >>>>>>>-->
+
+
+            <div class="network">
+               <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.svg" alt="facebook" width="48" height="48"></a> 
+               <a href="https://twitter.com/" target="_blank"><img src="./img/twitter.svg" alt="twitter" width="48" height="48"></a>
+               <a href="https://instagram.com/" target="_blank"><img src="./img/instagram.svg" alt="instagram" width="48" height="48"></a>
+               <a href="https://www.linkedin.com/" target="_blank"><img src="./img/linkin.svg" alt="linkin" width="48" height="48"></a>
+            </div>
+           </div>
+
+           <div class="education-blank feature-links">
+            <h2 class="education-blank__head--logo feature-links__title">Feature Links</h2>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>About Us</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>Graduation</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>Scholarship</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>Admissions</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>International</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>Events</a>
+           </div>
+
+           <div class="education-blank feature-links">
+            <h2 class="education-blank__head--logo feature-links__title">Support</h2>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>Language</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>WordPress</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>Privacy</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>FAQs</a>
+            <a class="feature-links__link" href="#"><i class="fa-solid fa-angle-right"></i>Support</a>
+           </div>
+
+           <div class="education-blank feature-links">
+            <h2 class="education-blank__head--logo feature-links__title">Contact Us</h2>
+            <a class="feature-links__link" href="https://goo.gl/maps/vjkewAwAWvnNCmyy6" target="_blank"><div class="adres">230,Mirpur Area, Mirpur 10, Dhaka,Bangladesh</div> </a>
+            <a class="feature-links__link" href="tel:+017 4845 7269"><i class="fa-solid fa-phone icon icon-add"></i>+017 4845 7269</a>
+            <a class="feature-links__link" href="mailto:info@gmail.com"><i class="fa-regular fa-envelope icon icon--mail"></i>info@gmail.com</a>
+            <a class="feature-links__link" href="https://www.yourdomain.com/"><i class="fa-solid fa-globe icon icon-add"></i>www.yourdomain.com</a>
+           </div>
+        </div>
+    </footer>
 </body>
 
 </html>
